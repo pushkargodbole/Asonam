@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: asonam.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: IEEEabrv.bib
+Database file #2: ref.bib
+-- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in pgp
+
+Done.
+You've used 18 entries,
+            4039 wiz_defined-function locations,
+            1331 strings with 18520 characters,
+and the built_in function-call counts, 13540 in all, are:
+= -- 1128
+> -- 326
+< -- 94
++ -- 170
+- -- 60
+* -- 687
+:= -- 2108
+add.period$ -- 39
+call.type$ -- 18
+change.case$ -- 18
+chr.to.int$ -- 207
+cite$ -- 19
+duplicate$ -- 991
+empty$ -- 1055
+format.name$ -- 77
+if$ -- 3082
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 178
+newline$ -- 99
+num.names$ -- 18
+pop$ -- 410
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1047
+stack$ -- 0
+substring$ -- 535
+swap$ -- 810
+text.length$ -- 25
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 18
+warning$ -- 1
+while$ -- 50
+width$ -- 20
+write$ -- 224
+(There was 1 warning)
