@@ -687,10 +687,9 @@ along bridge-edge \emph{(p, q)}, leading to suboptimal clustering (b) instead of
 (c) \emph{[Dashed lines represent clusters]}\vspace{-0.5cm}}
 \end{figure}
 \subsection{Size of Change}
-The Size of Change\footnote{In submission: Anita Zakrzewska, Eisha Nathan, 
-James Fairbanks, David Bader ``A Local Measure of Community Change in Dynamic 
-Graphs'', ASONAM 2016} metric must reflect the difference between two 
-clusterings, based on the cluster associations of all vertices. 
+The Size of Change\footnote{In progress: Anita Zakrzewska and David A. Bader 
+``Detecting Vertex Level Community Changes''} metric must reflect the difference 
+between two clusterings, based on the cluster associations of all vertices. 
 However, since the clusters do not have explicit tags, the measure of change 
 for each vertex must be defined relative to its neighborhood. This is realized 
 based on the following three quantities for each vertex ($v$):
@@ -728,15 +727,15 @@ from communities and placing them in singleton communities. Consider for example
 the case of a change-batch that deletes edges from a community, splitting it 
 into two disconnected subgraphs as shown in figure \ref{graph}.
 \begin{figure}
-\begin{subfigure}{0.4\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \includegraphics[width=\linewidth]{graph.pdf}
-\caption{Initial community} \label{graph_init}
+\caption{Initial graph community} \label{graph_init}
 \end{subfigure}
 \raisebox{8pt}{$\boldsymbol{\rightarrow}$}
 %\hspace*{\fill} % separation between the subfigures
-\begin{subfigure}{0.4\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \includegraphics[width=\linewidth]{graph_split.pdf}
-\caption{Updated community} \label{graph_split}
+\caption{Updated graph community} \label{graph_split}
 \end{subfigure}
 \caption{\label{graph} As the graph transitions from (a) to (b), a conventional 
 localized vertex-freeing strategy yields a suboptimal community structure where 
@@ -1027,9 +1026,9 @@ backtracking strategy. Additionally, not updating induced edges necessitates
 re-computation of adjacency after every batch change in case of dGlobal BT.
 \subsection{Analysis}
 The larger average degree of $G_fb$ (43.7) compared to $G_{pgp}$ (4.55) means 
-that the LGS tests are able to re-wire fewer vertices per batch in $G_{fb}$ 
-than in $G_{pgp}$. Thus the peculiar behavior of various approaches becomes 
-clearly visible in case of $LGS_{fb}$  as may be observed in the results below.
+that the LGS tests are able to re-wire fewer vertices per batch in $G_fb$ than 
+in $G_pgp$. Thus the peculiar behavior of various approaches becomes clearly 
+visible in case of $LGS_{fb}$  as may be observed in the results below.
 \subsubsection{Modularity}
 Broadly we observe that all approaches are able to track the graph 
 transition and recover Modularity with varying degrees of success. Figures 
@@ -1165,7 +1164,7 @@ computationally less intensive in nominal conditions.
 \begin{figure}
 \centering \includegraphics[width=\textwidth]{fb_lgs_time.pdf}
 \caption{\label{fblgstime} $G_{fb}$: Execution time/batch 
-for Localized Graph Stream\vspace{-0.5cm}}
+for Localized Graph Stream\vspace{-0.2cm}}
 \end{figure}
 
 \begin{table}
@@ -1185,7 +1184,7 @@ $\mathbf{\nicefrac{\mathbf{Avg\; Time}}{batch}}$ & \textit{$LGS_{fb}$} &
 \end{tabular}
 \vspace{-0.4cm}
 \caption{\label{ett}Average execution time per 
-batch (seconds)\vspace{-0.6cm}}
+batch (seconds)\vspace{-0.5cm}}
 \end{center}
 \end{table}
 Thus we observe that a trade-offs exists between various agglomeration 
@@ -1214,7 +1213,7 @@ yielding smoother transitions at fraction of the computation cost,
 particularly in case of high degree graphs such as social networks. The 
 analysis reveals that the economical agglomeration strategies such as 
 Matching and Vertex Spanning; and relaxed backtracking strategies with 
-respect to conventional approaches, perform very well under dynamic 
+respect to conventional approaches, perform exceedingly well under dynamic 
 clustering.\\
 While the Matching based agglomeration approach performs better than Vertex 
 Spanning in terms of Modularity and Size of Change, the cost of 
@@ -1227,12 +1226,7 @@ agglomeration scheme. Finally, further analysis of the backtracking strategies
 may facilitate the implementation of an adaptive backtracking scheme, that 
 determines the suitable backtrack policy based on the incoming edge-batch 
 topology.
-\vspace{-0.2cm}
-\section*{Acknowledgment}
-The work depicted in this paper was partially sponsored by NSF Grant 
-ACI-1339745 (XScala). The content, views and conclusions presented in this 
-document do not necessarily reflect the position or the policy of NSF or the 
-U.S. Government, no official endorsement should be inferred.
+
 % \textit{Multi-node spanning:} An extension of this approach would be to span 
 % the graph, starting simultaneously from multiple nodes. A special case of this 
 % extension would be the all-node spanning approach, wherein all nodes seek out a 
@@ -1360,7 +1354,6 @@ U.S. Government, no official endorsement should be inferred.
 % <OR> manually copy in the resultant .bbl file
 % set second argument of \begin to the number of references
 % (used to reserve space for the reference number labels box)
-\vspace{-0.1cm}
 \bibliographystyle{IEEEtran}
 \bibliography{IEEEabrv,ref}
 

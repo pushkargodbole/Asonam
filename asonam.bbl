@@ -23,124 +23,122 @@
 
 \bibitem{for}
 \BIBentryALTinterwordspacing
-S.~Fortunato, ``Community detection in graphs,'' \emph{CoRR}, vol.
+S.~Fortunato, ``Community detection in graphs,'' \emph{{CoRR}}, vol.
   abs/0906.0612, 2009. [Online]. Available:
   \url{http://arxiv.org/abs/0906.0612}
 \BIBentrySTDinterwordspacing
 
 \bibitem{gor}
-\BIBentryALTinterwordspacing
-R.~G\"{o}rke, P.~Maillard, A.~Schumm, C.~Staudt, and D.~Wagner, ``Dynamic graph
-  clustering combining modularity and smoothness,'' \emph{J. Exp.
-  Algorithmics}, vol.~18, pp. 1.5:1.1--1.5:1.29, Apr. 2013. [Online].
-  Available: \url{http://doi.acm.org/10.1145/2444016.2444021}
-\BIBentrySTDinterwordspacing
+R.~G\"{o}rke, P.~Maillard, A.~Schumm, C.~Staudt, and D.~Wagner, ``{Dynamic
+  graph clustering combining Modularity and Smoothness},'' \emph{{J. Exp.
+  Algorithmics}}, vol.~18, pp. 1.5:1.1--1.5:1.29, Apr. 2013.
 
 \bibitem{ngu}
 \BIBentryALTinterwordspacing
-N.~P. Nguyen, T.~N. Dinh, Y.~Shen, and M.~T. Thai, ``Dynamic social community
-  detection and its applications,'' \emph{PLoS ONE}, vol.~9, no.~4, pp. 1--18,
-  04 2014. [Online]. Available:
+N.~P. Nguyen, T.~N. Dinh, Y.~Shen, and M.~T. Thai, ``{Dynamic social community
+  detection and its applications},'' \emph{{PLoS ONE}}, vol.~9, no.~4, pp.
+  1--18, 04 2014. [Online]. Available:
   \url{http://dx.doi.org/10.1371%2Fjournal.pone.0091431}
 \BIBentrySTDinterwordspacing
 
 \bibitem{hop}
-\BIBentryALTinterwordspacing
-J.~Hopcroft, O.~Khan, B.~Kulis, and B.~Selman, ``Tracking evolving communities
-  in large linked networks,'' \emph{Proceedings of the National Academy of
-  Sciences}, vol. 101, no. suppl 1, pp. 5249--5253, 2004. [Online]. Available:
-  \url{http://www.pnas.org/content/101/suppl_1/5249.abstract}
-\BIBentrySTDinterwordspacing
+J.~Hopcroft, O.~Khan, B.~Kulis, and B.~Selman, ``{Tracking evolving communities
+  in large linked networks},'' \emph{{Proceedings of the National Academy of
+  Sciences}}, vol. 101, no. suppl 1, pp. 5249--5253, 2004.
 
 \bibitem{rie}
 \BIBentryALTinterwordspacing
-E.~J. Riedy, H.~Meyerhenke, D.~Ediger, and D.~A. Bader, ``Parallel community
-  detection for massive graphs,'' in \emph{Proceedings of the 9th International
-  Conference on Parallel Processing and Applied Mathematics - Volume Part I},
-  ser. PPAM'11.\hskip 1em plus 0.5em minus 0.4em\relax Berlin, Heidelberg:
-  Springer-Verlag, 2012, pp. 286--296. [Online]. Available:
+E.~J. Riedy, H.~Meyerhenke, D.~Ediger, and D.~A. Bader, ``{Parallel community
+  detection for massive graphs},'' in \emph{{Proceedings of the 9th
+  International Conference on Parallel Processing and Applied Mathematics -
+  Volume Part I}}, ser. PPAM'11.\hskip 1em plus 0.5em minus 0.4em\relax Berlin,
+  Heidelberg: Springer-Verlag, 2012, pp. 286--296. [Online]. Available:
   \url{http://dx.doi.org/10.1007/978-3-642-31464-3_29}
 \BIBentrySTDinterwordspacing
 
 \bibitem{cha}
 \BIBentryALTinterwordspacing
-D.~Chakrabarti, R.~Kumar, and A.~Tomkins, ``Evolutionary clustering,'' in
-  \emph{Proceedings of the 12th ACM SIGKDD International Conference on
-  Knowledge Discovery and Data Mining}, ser. KDD '06.\hskip 1em plus 0.5em
+D.~Chakrabarti, R.~Kumar, and A.~Tomkins, ``{Evolutionary clustering},'' in
+  \emph{{Proceedings of the 12th ACM SIGKDD International Conference on
+  Knowledge Discovery and Data Mining}}, ser. KDD '06.\hskip 1em plus 0.5em
   minus 0.4em\relax New York, NY, USA: ACM, 2006, pp. 554--560. [Online].
   Available: \url{http://doi.acm.org/10.1145/1150402.1150467}
 \BIBentrySTDinterwordspacing
 
+\bibitem{dim}
+D.~A. Bader, H.~Meyerhenke, P.~Sanders, and D.~Wagner, ``Graph partitioning and
+  graph clustering,'' \emph{{10th DIMACS Implementation Challenge Workshop}},
+  February 2012.
+
 \bibitem{har}
-T.~{Hartmann}, A.~{Kappes}, and D.~{Wagner}, ``{Clustering Evolving
-  Networks},'' \emph{ArXiv e-prints}, Jan. 2014.
+T.~{Hartmann}, A.~{Kappes}, and D.~{Wagner}, ``{Clustering evolving
+  networks},'' \emph{{ArXiv e-prints}}, Jan. 2014.
 
 \bibitem{new}
-M.~E.~J. Newman and M.~Girvan, ``Finding and evaluating community structure in
-  networks,'' \emph{Physical Review}, vol. E 69, no. 026113, 2004.
+M.~E.~J. Newman and M.~Girvan, ``{Finding and evaluating community structure in
+  networks},'' \emph{{Physical Review}}, vol. E 69, no. 026113, 2004.
 
 \bibitem{cla}
 \BIBentryALTinterwordspacing
-A.~Clauset, M.~E.~J. Newman, and C.~Moore, ``Finding community structure in
-  very large networks,'' \emph{Phys. Rev. E}, vol.~70, p. 066111, Dec 2004.
+A.~Clauset, M.~E.~J. Newman, and C.~Moore, ``{Finding community structure in
+  very large networks},'' \emph{{Phys. Rev. E}}, vol.~70, p. 066111, Dec 2004.
   [Online]. Available: \url{http://link.aps.org/doi/10.1103/PhysRevE.70.066111}
 \BIBentrySTDinterwordspacing
 
 \bibitem{blo}
 \BIBentryALTinterwordspacing
-V.~D. Blondel, J.-L. Guillaume, R.~Lambiotte, and E.~Lefebvre, ``Fast unfolding
-  of communities in large networks,'' \emph{Journal of Statistical Mechanics:
-  Theory and Experiment}, vol. 2008, no.~10, p. P10008, 2008. [Online].
-  Available: \url{http://stacks.iop.org/1742-5468/2008/i=10/a=P10008}
+V.~D. Blondel, J.-L. Guillaume, R.~Lambiotte, and E.~Lefebvre, ``{Fast
+  unfolding of communities in large networks},'' \emph{{Journal of Statistical
+  Mechanics: Theory and Experiment}}, vol. 2008, no.~10, p. P10008, 2008.
+  [Online]. Available: \url{http://stacks.iop.org/1742-5468/2008/i=10/a=P10008}
 \BIBentrySTDinterwordspacing
 
 \bibitem{sch}
 \BIBentryALTinterwordspacing
-P.~Schuetz and A.~Caflisch, ``Efficient modularity optimization by multistep
-  greedy algorithm and vertex mover refinement,'' \emph{Phys. Rev. E}, vol.~77,
-  p. 046112, Apr 2008. [Online]. Available:
+P.~Schuetz and A.~Caflisch, ``{Efficient Modularity optimization by multistep
+  greedy algorithm and vertex mover refinement},'' \emph{{Phys. Rev. E}},
+  vol.~77, p. 046112, Apr 2008. [Online]. Available:
   \url{http://link.aps.org/doi/10.1103/PhysRevE.77.046112}
 \BIBentrySTDinterwordspacing
 
 \bibitem{rie2}
 \BIBentryALTinterwordspacing
-J.~Riedy, D.~A. Bader, and H.~Meyerhenke, ``Scalable multi-threaded community
-  detection in social networks,'' in \emph{Proceedings of the 2012 IEEE 26th
+J.~Riedy, D.~A. Bader, and H.~Meyerhenke, ``{Scalable multi-threaded community
+  detection in social networks},'' in \emph{{Proceedings of the 2012 IEEE 26th
   International Parallel and Distributed Processing Symposium Workshops \& PhD
-  Forum}, ser. IPDPSW '12.\hskip 1em plus 0.5em minus 0.4em\relax Washington,
-  DC, USA: IEEE Computer Society, 2012, pp. 1619--1628. [Online]. Available:
+  Forum}}, ser. IPDPSW '12.\hskip 1em plus 0.5em minus 0.4em\relax Washington,
+  DC, USA: {IEEE Computer Society}, 2012, pp. 1619--1628. [Online]. Available:
   \url{http://dx.doi.org/10.1109/IPDPSW.2012.203}
 \BIBentrySTDinterwordspacing
 
 \bibitem{gor2}
-R.~Gorke, M.~Gaertler, F.~Hübner, and D.~Wagner, ``Computational aspects of
-  lucidity-driven graph clustering,'' 2010.
+R.~Gorke, M.~Gaertler, F.~Hübner, and D.~Wagner, ``{Computational aspects of
+  Lucidity-driven graph clustering},'' 2010.
 
 \bibitem{jwu}
-J.~Wu, A.~E. Hassan, and R.~C. Holt, ``Comparison of clustering algorithms in
-  the context of software evolution,'' in \emph{Software Maintenance, 2005.
-  ICSM'05. Proceedings of the 21st IEEE International Conference on}, Sept
+J.~Wu, A.~E. Hassan, and R.~C. Holt, ``{Comparison of clustering algorithms in
+  the context of software evolution},'' in \emph{{Software Maintenance, 2005.
+  ICSM'05. Proceedings of the 21st IEEE International Conference on}}, Sept
   2005, pp. 525--535.
 
 \bibitem{for2}
 \BIBentryALTinterwordspacing
 S.~Fortunato and M.~Barth\'{e}lemy, ``{Resolution limit in community
-  detection},'' \emph{Proceedings of the National Academy of Sciences}, vol.
+  detection},'' \emph{{Proceedings of the National Academy of Sciences}}, vol.
   104, no.~1, pp. 36--41, Jan. 2007. [Online]. Available:
   \url{http://dx.doi.org/10.1073/pnas.0605965104}
 \BIBentrySTDinterwordspacing
 
 \bibitem{bran}
 U.~Brandes, D.~Delling, M.~Gaertler, R.~G\"{o}rke, M.~Hoefer, Z.~Nikoloski, and
-  D.~Wagner, ``On modularity -- np-completeness and beyond,'' 2006.
+  D.~Wagner, ``{On Modularity -- NP-Completeness and Beyond},'' 2006.
 
 \bibitem{fb}
-J.~Leskovec and A.~Krevl, ``{SNAP Datasets}: {Stanford} large network dataset
-  collection,'' \url{http://snap.stanford.edu/data}, Jun. 2014.
+J.~McAuley and J.~Leskovec, ``{Learning to discover social circles in ego
+  networks, NIPS},'' 2012.
 
 \bibitem{pgp}
-M.~Boguña, R.~Pastor-Satorras, A.~Diaz-Guilera, and A.~Arenas, ``Pgp giant
-  component user network graph physical review e, vol. 70, 056122
-  (http://www.cc.gatech.edu/dimacs10/archive/clustering.shtml),'' 2004.
+M.~Boguña, R.~Pastor-Satorras, A.~Diaz-Guilera, and A.~Arenas, ``{PGP giant
+  component user network graph Physical Review E, vol. 70},'' 2004.
 
 \end{thebibliography}

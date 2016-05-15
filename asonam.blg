@@ -9,51 +9,56 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: IEEEabrv.bib
 Database file #2: ref.bib
+Repeated entry---line 271 of file ref.bib
+ : @misc{fb
+ :         ,
+I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in fb
 Warning--empty journal in pgp
 
 Done.
-You've used 18 entries,
+You've used 19 entries,
             4039 wiz_defined-function locations,
-            1331 strings with 18520 characters,
-and the built_in function-call counts, 13540 in all, are:
-= -- 1128
-> -- 326
+            1334 strings with 18720 characters,
+and the built_in function-call counts, 13876 in all, are:
+= -- 1144
+> -- 343
 < -- 94
-+ -- 170
-- -- 60
-* -- 687
-:= -- 2108
-add.period$ -- 39
-call.type$ -- 18
-change.case$ -- 18
++ -- 178
+- -- 64
+* -- 699
+:= -- 2153
+add.period$ -- 41
+call.type$ -- 19
+change.case$ -- 19
 chr.to.int$ -- 207
-cite$ -- 19
-duplicate$ -- 991
-empty$ -- 1055
-format.name$ -- 77
-if$ -- 3082
+cite$ -- 21
+duplicate$ -- 1030
+empty$ -- 1090
+format.name$ -- 82
+if$ -- 3158
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 178
-newline$ -- 99
-num.names$ -- 18
-pop$ -- 410
+int.to.str$ -- 19
+missing$ -- 184
+newline$ -- 98
+num.names$ -- 19
+pop$ -- 431
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1047
+skip$ -- 1069
 stack$ -- 0
-substring$ -- 535
-swap$ -- 810
+substring$ -- 536
+swap$ -- 827
 text.length$ -- 25
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 18
-warning$ -- 1
-while$ -- 50
-width$ -- 20
-write$ -- 224
-(There was 1 warning)
+type$ -- 19
+warning$ -- 2
+while$ -- 51
+width$ -- 21
+write$ -- 225
+(There was 1 error message)

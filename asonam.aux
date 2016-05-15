@@ -6,6 +6,7 @@
 \citation{cha}
 \citation{gor}
 \citation{for}
+\citation{dim}
 \@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {I-A}}Contribution}{1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {I-B}}Nomenclature}{1}}
@@ -22,16 +23,17 @@
 \citation{gor}
 \citation{rie,gor}
 \citation{new}
+\citation{for2}
+\citation{for,bran}
 \@writefile{toc}{\contentsline {section}{\numberline {II}Related Work}{2}}
 \@writefile{toc}{\contentsline {section}{\numberline {III}Preliminaries}{2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Modularity}{2}}
 \newlabel{Modularity}{{\unhbox \voidb@x \hbox {III-A}}{2}}
-\citation{for2}
-\citation{for,bran}
 \citation{bran}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Differential Modularity}{3}}
 \newlabel{diffmod}{{\unhbox \voidb@x \hbox {III-B}}{3}}
-\newlabel{eq:3}{{3}{3}}
+\newlabel{eq:3}{{2}{3}}
+\newlabel{eq:4}{{3}{3}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{wheel10g}{{1a}{3}}
 \newlabel{sub@wheel10g}{{a}{3}}
@@ -46,70 +48,75 @@
 \newlabel{sub@graph_init}{{a}{4}}
 \newlabel{graph_split}{{2b}{4}}
 \newlabel{sub@graph_split}{{b}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces  As the graph transitions from (a) to (b), a conventional localized vertex-freeing strategy yields a suboptimal community structure where two disconnected subgraphs end up belonging to the same cluster. \emph  {[Blue vertices lie in the same cluster $C$. White vertices become free singletons, that will likely re-join $C$ through the connecting edges, in subsequent agglomeration.]}\vspace  {-0.5cm}\relax }}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces  As the graph transitions from (a) to (b), a conventional localized vertex-freeing strategy yields a suboptimal community structure where two disconnected subgraphs end up belonging to the same cluster. \emph  {[Black vertices lie in the same cluster $C$. White vertices become free singletons]}\vspace  {-0.5cm}\relax }}{4}}
 \newlabel{graph}{{2}{4}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-D}}A case for Backtracking}{4}}
 \newlabel{caseforbt}{{\unhbox \voidb@x \hbox {III-D}}{4}}
 \@writefile{toc}{\contentsline {section}{\numberline {IV}The Backtracking Re-agglomeration Algorithm}{4}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Backtracking}{4}}
+\newlabel{btmethods}{{\unhbox \voidb@x \hbox {IV-A}1}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}1}Backtracking Methods}{4}}
 \citation{gor}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \relax }}{5}}
 \newlabel{dendo}{{3}{5}}
 \@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces \relax }}{5}}
 \newlabel{pstack}{{I}{5}}
-\newlabel{btmethods}{{\unhbox \voidb@x \hbox {IV-A}1}{5}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}1}Backtracking Methods}{5}}
 \@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Induced Edges\relax }}{5}}
 \newlabel{editedgealg}{{1}{5}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}2}Backtracking Strategies}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Re-agglomeration}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}1}Vertex Spanning}{5}}
 \citation{fb}
 \citation{pgp}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Re-agglomeration}{6}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}1}Node Spanning}{6}}
+\citation{gor}
+\citation{gor}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}2}Matching}{6}}
 \@writefile{toc}{\contentsline {section}{\numberline {V}Results}{6}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-A}}Experiment}{6}}
-\citation{gor}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}Variations}{7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-C}}Analysis}{7}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {V-C}1}Modularity}{7}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces  $G_{fb}$: \emph  {Moduarity} evolution for Localized Graph Stream\vspace  {-0.5cm}\relax }}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Backtracking Strategies\vspace  {-0.5cm}\relax }}{6}}
+\newlabel{bts}{{II}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}Variations}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-C}}Analysis}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {V-C}1}Modularity}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces  $G_{fb}$: Moduarity evolution for LGS\vspace  {-0.4cm}\relax }}{7}}
 \newlabel{fblgsmod}{{4}{7}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces  $G_{fb}$: \emph  {Modularity} evolution for Randomized Graph Stream\vspace  {-0.6cm}\relax }}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces  $G_{fb}$: Modularity evolution for RGS\vspace  {-0.5cm}\relax }}{7}}
 \newlabel{fbrgsmod}{{5}{7}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {V-C}2}Size of Change}{7}}
-\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces $G_{pgp}$: Modularity\relax }}{7}}
-\newlabel{pgpmod}{{II}{7}}
-\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces $LGS_{fb}$ Key parameters \emph  {[p: No. of communities, $\mu _{size}$: Community size mean, $\sigma _{size}$: Community size standard deviation]}\vspace  {-0.3cm}\relax }}{7}}
-\newlabel{lgsfbmetrics}{{III}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces $G_{pgp}$: Modularity\vspace  {-0.3cm}\relax }}{7}}
+\newlabel{pgpmod}{{III}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces $LGS_{fb}$ Key parameters \emph  {[p: No. of communities, $\mu _{size}$: Community size mean, $\sigma _{size}$: Community size standard deviation]}\vspace  {-0.5cm}\relax }}{7}}
+\newlabel{lgsfbmetrics}{{IV}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces Average Size of Change per batch\vspace  {-0.1cm}\relax }}{7}}
+\newlabel{soct}{{V}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces  $G_{fb}$: Execution time/batch for Localized Graph Stream\vspace  {-0.5cm}\relax }}{7}}
+\newlabel{fblgstime}{{6}{7}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {V-C}3}Execution Time}{7}}
 \citation{fb}
 \citation{pgp}
+\citation{rie}
 \bibstyle{IEEEtran}
 \bibdata{IEEEabrv,ref}
 \bibcite{for}{1}
-\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Average \emph  {Size of Change} per batch\vspace  {-0.1cm}\relax }}{8}}
-\newlabel{soct}{{IV}{8}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces  $G_{fb}$: Execution time/batch for Localized Graph Stream\vspace  {-0.6cm}\relax }}{8}}
-\newlabel{fblgstime}{{6}{8}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {V-C}3}Execution Time}{8}}
-\@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces Average execution time per batch (seconds)\vspace  {-0.5cm}\relax }}{8}}
-\newlabel{ett}{{V}{8}}
-\@writefile{toc}{\contentsline {section}{\numberline {VI}Conclusions}{8}}
 \bibcite{gor}{2}
 \bibcite{ngu}{3}
 \bibcite{hop}{4}
 \bibcite{rie}{5}
 \bibcite{cha}{6}
-\bibcite{har}{7}
-\bibcite{new}{8}
-\bibcite{cla}{9}
-\bibcite{blo}{10}
-\bibcite{sch}{11}
-\bibcite{rie2}{12}
-\bibcite{gor2}{13}
-\bibcite{jwu}{14}
-\bibcite{for2}{15}
-\bibcite{bran}{16}
-\bibcite{fb}{17}
-\bibcite{pgp}{18}
-\@writefile{toc}{\contentsline {section}{References}{9}}
+\bibcite{dim}{7}
+\bibcite{har}{8}
+\bibcite{new}{9}
+\bibcite{cla}{10}
+\bibcite{blo}{11}
+\bibcite{sch}{12}
+\bibcite{rie2}{13}
+\bibcite{gor2}{14}
+\bibcite{jwu}{15}
+\bibcite{for2}{16}
+\bibcite{bran}{17}
+\bibcite{fb}{18}
+\bibcite{pgp}{19}
+\@writefile{lot}{\contentsline {table}{\numberline {VI}{\ignorespaces Average execution time per batch (seconds)\vspace  {-0.6cm}\relax }}{8}}
+\newlabel{ett}{{VI}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Conclusions}{8}}
+\@writefile{toc}{\contentsline {section}{References}{8}}
